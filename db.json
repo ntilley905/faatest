@@ -68,6 +68,103 @@
           "Wind": [
             "North at 9.2"
           ]
+        },
+        "ASE": {
+          "Name": "Aspen-pitkin Co/sardy Field",
+          "City": "Aspen",
+          "State": "CO",
+          "ICAO": "KASE",
+          "IATA": "ASE",
+          "SupportedAirport": false,
+          "Delay": true,
+          "DelayCount": 2,
+          "Status": [
+            {
+              "Reason": "RAMP SPACE",
+              "EndTime": "11:30 am MST."
+            },
+            {
+              "Type": "Ground Delay",
+              "Reason": "WEATHER / LOW CEILINGS",
+              "AvgDelay": "53 minutes"
+            },
+            {
+              "Type": "Departure",
+              "Reason": "WEATHER / LOW CEILINGS",
+              "AvgDelay": "53 minutes"
+            }
+          ],
+          "Weather": {
+            "Weather": [
+              {
+                "Temp": [
+                  "Fair"
+                ]
+              }
+            ],
+            "Visibility": [
+              10
+            ],
+            "Meta": [
+              {
+                "Credit": "NOAA's National Weather Service",
+                "Url": "http://weather.gov/",
+                "Updated": "Last Updated on Feb 14 2020, 9:53 am MST"
+              }
+            ],
+            "Temp": [
+              "27.0 F (-2.8 C)"
+            ],
+            "Wind": [
+              "North at 0.0"
+            ]
+          }
+        },
+        "SLC": {
+          "Name": "Salt Lake City Intl",
+          "City": "Salt Lake City",
+          "State": "UT",
+          "ICAO": "KSLC",
+          "IATA": "SLC",
+          "SupportedAirport": true,
+          "Delay": true,
+          "DelayCount": 1,
+          "Status": [
+            {
+              "Reason": "OTHER / OTHER",
+              "EndTime": "3:00 pm MDT."
+            },
+            {
+              "Type": "Ground Delay",
+              "Reason": "WEATHER / LOW CEILINGS",
+              "AvgDelay": "53 minutes"
+            }
+          ],
+          "Weather": {
+            "Weather": [
+              {
+                "Temp": [
+                  "Overcast"
+                ]
+              }
+            ],
+            "Visibility": [
+              10
+            ],
+            "Meta": [
+              {
+                "Credit": "NOAA's National Weather Service",
+                "Url": "http://weather.gov/",
+                "Updated": "Last Updated on Mar 18 2020, 11:54 am MDT"
+              }
+            ],
+            "Temp": [
+              "44.0 F (6.7 C)"
+            ],
+            "Wind": [
+              "South at 15.0"
+            ]
+          }
         }
       }
     }
