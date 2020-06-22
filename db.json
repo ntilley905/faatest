@@ -29,44 +29,46 @@
       }
     },
     "status": {
-      "Name": "Orlando Intl",
-      "City": "Orlando",
-      "State": "FL",
-      "ICAO": "KMCO",
-      "IATA": "MCO",
-      "SupportedAirport": true,
-      "Delay": true,
-      "DelayCount": 1,
-      "Status": [
-        {
-          "Reason": "WEATHER / THUNDERSTORMS",
-          "EndTime": "9:45 pm EDT."
+      "MCO": {
+        "Name": "Orlando Intl",
+        "City": "Orlando",
+        "State": "FL",
+        "ICAO": "KMCO",
+        "IATA": "MCO",
+        "SupportedAirport": true,
+        "Delay": true,
+        "DelayCount": 1,
+        "Status": [
+          {
+            "Reason": "WEATHER / THUNDERSTORMS",
+            "EndTime": "9:45 pm EDT."
+          }
+        ],
+        "Weather": {
+          "Weather": [
+            {
+              "Temp": [
+                "Thunderstorm Light Rain"
+              ]
+            }
+          ],
+          "Visibility": [
+            10
+          ],
+          "Meta": [
+            {
+              "Credit": "NOAA's National Weather Service",
+              "Url": "http://weather.gov/",
+              "Updated": "Last Updated on Jul 28 2019, 8:53 pm EDT"
+            }
+          ],
+          "Temp": [
+            "79.0 F (26.1 C)"
+          ],
+          "Wind": [
+            "North at 9.2"
+          ]
         }
-      ],
-      "Weather": {
-        "Weather": [
-          {
-            "Temp": [
-              "Thunderstorm Light Rain"
-            ]
-          }
-        ],
-        "Visibility": [
-          10
-        ],
-        "Meta": [
-          {
-            "Credit": "NOAA's National Weather Service",
-            "Url": "http://weather.gov/",
-            "Updated": "Last Updated on Jul 28 2019, 8:53 pm EDT"
-          }
-        ],
-        "Temp": [
-          "79.0 F (26.1 C)"
-        ],
-        "Wind": [
-          "North at 9.2"
-        ]
       }
     }
   }
